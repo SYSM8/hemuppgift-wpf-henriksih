@@ -1,0 +1,38 @@
+﻿<Window x:Class="Hemuppgift_WPFtemplate.GridWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hemuppgift_WPFtemplate"
+        mc:Ignorable="d"
+        Title="GridWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!-- Input controls in the first row -->
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="5">
+            <TextBlock Text="Row" VerticalAlignment="Center"/>
+            <TextBox x:Name="txtRow" Width="30" Margin="5,0"/>
+            <TextBlock Text="Column" VerticalAlignment="Center"/>
+            <TextBox x:Name="txtColumn" Width="30" Margin="5,0"/>
+            <Button Content="Apply" Name="ApplyBtn" Click="ApplyBtn_Click" Margin="5,0"/>
+        </StackPanel>
+        <!-- The button grid fills the rest -->
+        <Grid x:Name="ButtonGrid" Grid.Row="1" Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+    </Grid>
+ </Window>
