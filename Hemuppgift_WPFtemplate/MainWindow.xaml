@@ -16,7 +16,7 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Button Grid.Row="0" Grid.Column="0" x:Name="GridBtn" Content="Grid" Click="GridBtn_Click"/>
-        <Button Grid.Row="0" Grid.Column="1" x:Name="StackBtn" Content="StackPanel"/>
+        <Button Grid.Row="0" Grid.Column="1" x:Name="StackBtn" Content="StackPanel" Click="StackBtn_Click"/>
         <Button Grid.Row="1" Grid.Column="0" x:Name="WrapBtn" Content="WrapPanel"/>
         <Button Grid.Row="1" Grid.Column="1" x:Name="DockBtn" Content="DockPanel"/>
 
