@@ -1,0 +1,24 @@
+﻿<Window x:Class="Hemuppgift_WPFtemplate.DockPanelWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hemuppgift_WPFtemplate"
+        mc:Ignorable="d"
+        Title="DockPanelWindow" Height="450" Width="800">
+    <Grid>
+        <Image Name="Trophy" Source="C:\Users\henri\Source\Repos\hemuppgift-wpf-henriksih\Hemuppgift_WPFtemplate\TrophyImage.jpg" Visibility="Hidden" Height="180" Width="150" DockPanel.Dock="Top" />
+
+        <DockPanel >
+            <Button DockPanel.Dock="Top"  Content="Top" HorizontalAlignment="Center" VerticalAlignment="Top" Width="80" Height="30" Margin="5"/>
+            <Button DockPanel.Dock="Bottom" Content="Bottom" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="80" Height="30" Margin="5"/>
+            <Button DockPanel.Dock="Left" Content="Left" HorizontalAlignment="Right" VerticalAlignment="Center" Width="80" Height="30" Margin="5"/>
+            <Button DockPanel.Dock="Right" Content="Right" HorizontalAlignment="Right" VerticalAlignment="Center" Width="80" Height="30" Margin="5"/>
+            <Button Name="CenterBtn" Content="Center" Width="80" Height="30" Margin="5" Click="Button_Click"/>
+            
+
+
+        </DockPanel>
+
+    </Grid>
+</Window>

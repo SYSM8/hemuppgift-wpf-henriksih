@@ -19,26 +19,5 @@
         <Button Grid.Row="0" Grid.Column="1" x:Name="StackBtn" Content="StackPanel" Click="StackBtn_Click"/>
         <Button Grid.Row="1" Grid.Column="0" x:Name="WrapBtn" Content="WrapPanel" Click="WrapBtn_Click"/>
         <Button Grid.Row="1" Grid.Column="1" x:Name="DockBtn" Content="DockPanel" Click="DockBtn_Click"/>
-
-
-        <!--<Grid>
-            
-            
-        </Grid>
-
-        <StackPanel>
-            
-            
-        </StackPanel>
-
-        <WrapPanel>
-            
-        </WrapPanel>
-
-        <DockPanel>
-            
-            
-        </DockPanel>-->
-
     </Grid>
 </Window>
