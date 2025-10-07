@@ -8,17 +8,12 @@
         Title="DockPanelWindow" Height="450" Width="800">
     <Grid>
         <Image Name="Trophy" Source="C:\Users\henri\Source\Repos\hemuppgift-wpf-henriksih\Hemuppgift_WPFtemplate\TrophyImage.jpg" Visibility="Hidden" Height="180" Width="150" DockPanel.Dock="Top" />
-
         <DockPanel >
-            <Button DockPanel.Dock="Top"  Content="Top" HorizontalAlignment="Center" VerticalAlignment="Top" Width="80" Height="30" Margin="5"/>
-            <Button DockPanel.Dock="Bottom" Content="Bottom" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="80" Height="30" Margin="5"/>
-            <Button DockPanel.Dock="Left" Content="Left" HorizontalAlignment="Right" VerticalAlignment="Center" Width="80" Height="30" Margin="5"/>
-            <Button DockPanel.Dock="Right" Content="Right" HorizontalAlignment="Right" VerticalAlignment="Center" Width="80" Height="30" Margin="5"/>
+            <Button DockPanel.Dock="Top"  Content="Top" Width="80" Height="30" Margin="5"/>
+            <Button DockPanel.Dock="Bottom" Content="Bottom" Width="80" Height="30" Margin="5"/>
+            <Button DockPanel.Dock="Left" Content="Left" Width="80" Height="30" Margin="5"/>
+            <Button DockPanel.Dock="Right" Content="Right" Width="80" Height="30" Margin="5"/>
             <Button Name="CenterBtn" Content="Center" Width="80" Height="30" Margin="5" Click="Button_Click"/>
-            
-
-
         </DockPanel>
-
     </Grid>
 </Window>

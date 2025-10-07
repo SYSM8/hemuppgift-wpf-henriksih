@@ -26,9 +26,7 @@ namespace Hemuppgift_WPFtemplate
 
         private void Horisontal_Checked(object sender, RoutedEventArgs e)
         {
-            //StackPanelWindow Boxes = new StackPanelWindow();
             Boxes.Orientation = Orientation.Horizontal;
-                
         }
 
         private void Vertical_Checked(object sender, RoutedEventArgs e)

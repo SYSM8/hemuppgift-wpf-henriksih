@@ -29,7 +29,6 @@ namespace Hemuppgift_WPFtemplate
         {
             Trophy.Visibility = Visibility.Visible;
             CenterBtn.Visibility = Visibility.Hidden;
-
         }
     }
 }
